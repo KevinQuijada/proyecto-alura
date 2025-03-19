@@ -1,1 +1,5 @@
-Descripción del proyecto
+// Descripción del proyecto
+
+El presente proyecto consiste en el desarrollo de una aplicación web interactiva que permite a los usuarios ingresar una lista de nombres y realizar un sorteo aleatorio para determinar quién será el amigo secreto. Este sistema ha sido diseñado utilizando tecnologías web fundamentales como HTML, CSS y JavaScript, implementando prácticas recomendadas para el desarrollo estructurado y la optimización de la experiencia del usuario. La interfaz proporciona un campo de entrada para registrar nombres, una lista dinámica que se actualiza automáticamente y un botón que ejecuta el sorteo con una selección aleatoria eficiente.
+
+La lógica del sorteo se basa en la manipulación de arreglos en JavaScript, asegurando que cada nombre ingresado sea validado antes de añadirse a la lista. Se han implementado estructuras de control para evitar entradas vacías y prevenir errores en la interacción con el usuario. El algoritmo de selección aleatoria emplea la función Math.random(), asegurando un sorteo justo y equitativo. Adicionalmente, se han incorporado funciones modulares que separan la gestión de datos de la actualización de la interfaz, facilitando el mantenimiento y la escalabilidad del código.
